@@ -1,0 +1,12 @@
+<div class="card col-xs-12 col-md-6">
+    <img class="card-img-top" src="<%= products[i].image %>" alt="Card image cap">
+    <div class="card-block">
+        <h4 class="card-title">
+            <%= products[i].name %> <span class="badge badge-light"><%= products[i].price %> €</span>
+        </h4>
+        <p class="card-text"><%= products[i].description %></p>
+    </div>
+    <div class="card-footer text-right">
+        <a href="/cart/add/<%= products[i].id %>" class="btn btn-sm btn-primary">Ajouter au panier</a>
+    </div>
+</div>

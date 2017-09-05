@@ -1,0 +1,27 @@
+<% if (cart.length > 0) { %>
+    <div>
+        <h3>Panier</h3>
+        <table class="table table-bordered">
+            <% for(let i = 0; i < cart.length; i++) { %>
+                <tr>
+                    <td>
+                        <%= cart[i].count %> * <%= cart[i].product.name %>
+                    </td>
+                    <td>
+                        <%= cart[i].count * cart[i].product.price %> €
+                    </td>
+                    <td>
+                        <a href="/cart/remove/<%= cart[i].product.id %>" class="btn btn-sm btn-danger btn-block">x</a>
+                    </td>
+                </tr>
+            <% } %>
+        </table>
+        <div class="text-right">
+            <button class="btn btn-success btn-sm">valider mon panier</button>
+        </div>
+    </div>
+<% } else { %>
+    <div class="alert alert-warning" role="alert">
+        Votre panier est vide.
+    </div>
+<% } %>

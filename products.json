@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "name": "Serre Livre",
+        "price": 22.40,
+        "description": "Un super serre livre TB-TT",
+        "image": "/img/serre-livre.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Grille pain",
+        "price": 29.90,
+        "description": "Le grille pain ultime qui fera passer vos tartine du coté obscur",
+        "image": "/img/toaster.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Drone mono-moteur",
+        "price": 32.10,
+        "description": "Un super drone, réplique du faucon millénium",
+        "image": "/img/drone.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Coquetier",
+        "price": 1.50,
+        "description": "Coquetier R2D2, vous oeufs à la coque n'auront plus jamais le même goût !",
+        "image": "/img/coquetier.jpg"
+    }
+]
